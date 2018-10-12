@@ -1,0 +1,145 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: rgb(54, 56, 59);
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#container
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 940px;
+}
+
+#mainpic h1
+{
+	position:absolute;
+text-align:right;
+
+font-size:30px;
+color: #EE2C44;	
+left: 660px;
+top:23px;
+}
+
+
+#mainpic h2
+{
+position:absolute;
+text-align:right;
+color: #F2674A;	
+left:700px;
+top:60px;
+}
+
+#mainpic
+{
+background-image:url(images/strange_trip_background.jpg);
+background-repeat:no-repeat;
+width:900px;
+height:402px;	
+background-position: center bottom;
+background-position-y: -730px;
+}
+
+
+
+
+.lightblue
+{
+color:#B1C6FC	
+	
+}
+
+
+
+
+#menu
+{
+width:940px;
+height:69px;
+float:left;
+clear:both;
+background-color: #9ED294;
+}
+
+#content
+{
+width:880px;
+height:auto;
+background-color: #FFF2AC;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:5px;
+}
+
+footer {
+    color: gray;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left: auto;
+	width:900px;
+	text-align: center;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline-block;
+	
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: black
+	font-weight: bold;
+	padding-top: 17px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+#menu a:hover{
+	color:rgb(231, 134, 42);
+	background: url(images/menuhov.jpg) no-repeat;
+}
+
+#content p
+{
+	color: #061C37; 
+}
+
+#content h2
+{
+	text-align: center;
+	color: #EE2C44;
+}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
